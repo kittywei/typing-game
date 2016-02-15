@@ -1,0 +1,35 @@
+.canvas-wrap,#canvas1{width: 480px;height: 720px;margin: 0 auto;overflow: hidden;}
+#canvas1{background: #67d0a0;position: relative}
+#game{width: 100%;height: 100%;position: relative;top: 30px}
+
+.hole{position: absolute;width: 120px;height: 90px;overflow: hidden}
+.hole-black{width: 120px;height: 70px;border-radius: 50%;background-color: #000;position: absolute;bottom: 0}
+.letter-wrap{position: absolute;left: 0;top: 90px;width: 100%;height: 100%; text-align: center;background: url(../images/img-apple.png) no-repeat center top; background-size: 50px auto;-webkit-background-size: 50px auto;padding-top: 18px;font-size: 30px;color: #fff;font-weight: bold}
+.up{top: 0}
+.clicked{opacity: 0;}
+.transition{transition: all 0.2s;-webkit-transition: all 0.2s;-moz-transition: all 0.2s}
+
+#hole01{left: 20px;top: 250px}
+#hole02{left: 200px;top: 220px}
+#hole03{left: 340px;top: 300px}
+#hole04{left: 160px;top: 360px}
+#hole05{left: 320px;top: 450px}
+#hole06{left: 40px;top: 470px}
+
+.count-item{font-size: 26px; color: #dc1bff;font-style: italic;display: block;width: 100px;text-align: center}
+#game-count{position: absolute;left: 0;top: 70px;font-size: 18px;text-align: center;width: 100%}
+#game-count b{font-size: 130%;color: #ff0000}
+.gc-item{display: inline-block;margin: 0 15px;}
+
+#game-result{background: rgba(0,0,0,0.9);position: absolute;left: 0;top: 0;right: 0;bottom: 0;z-index: 20;color: #fff;text-align: center;display: none}
+#gr-con{padding-top: 260px;font-size: 30px}
+#btn-replay{display: block;margin: 45px auto 0;width: 160px;padding: 15px;font-size: 24px;color: #000;background: #fff;border-radius: 5px;cursor: pointer}
+.gr-gameinfo{font-size: 18px;display: block}
+
+/*#hole01 .img-mouse{top: 0}*/
+#btn-start{position: absolute; left: 35%;top: 150px; padding: 15px 50px; background: #000; color: #fff;text-align: center;display: inline-block;font-size: 26px;cursor: pointer;border-radius: 5px;z-index: 10;}
+
+
+
+
+

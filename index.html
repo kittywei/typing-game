@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mouse</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="canvas-wrap">
+        <div id="canvas1">
+            <div id="game-count">
+                <p style="font-size:14px;margin-bottom:10px">Target score: 300</p>
+                <span class="gc-item">Score:
+                    <b id="score">0</b>
+                </span>
+                <span class="gc-item">Time:
+                    <b id="time"></b><small>Sec</small>
+                </span>
+            </div>
+            <span id="btn-start">Start</span>
+            <div id="game">
+                <div class="hole" id="hole01">
+                    <div class="hole-black"></div>
+                    <div class="letter-wrap"></div>
+                </div>
+                <div class="hole" id="hole02">
+                    <div class="hole-black"></div>
+                    <div class="letter-wrap"></div>
+                </div>
+                <div class="hole" id="hole03">
+                    <div class="hole-black"></div>
+                    <div class="letter-wrap"></div>
+                </div>
+                <div class="hole" id="hole04">
+                    <div class="hole-black"></div>
+                    <div class="letter-wrap"></div>
+                </div>
+                <div class="hole" id="hole05">
+                    <div class="hole-black"></div>
+                    <div class="letter-wrap"></div>
+                </div>
+                <div class="hole" id="hole06">
+                    <div class="hole-black"></div>
+                    <div class="letter-wrap"></div>
+                </div>
+            </div>
+            <div id="game-result">
+                <div id="gr-con">
+                    <span id="gr-text"></span>
+                    <span class="gr-gameinfo">Your score is <span id="gr-score"></span></span>
+                </div>
+                <div id="btn-replay"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
